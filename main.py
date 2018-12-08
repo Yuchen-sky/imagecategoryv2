@@ -23,7 +23,7 @@ def main():
     statistic_amount=200
     savecount=5000
     batch=256
-    learning_rate=0.0001
+    learning_rate=0.0002
     e = len([file for file in os.listdir(MDIR) if os.path.isdir(os.path.join(MDIR, file))])
     mnist=input_data.read_data_sets('MNIST_data/',one_hot=True)
     memory = Memory()
